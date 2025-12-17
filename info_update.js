@@ -10,8 +10,8 @@ function updateInfoBlock(region) {
 			infoBlock.innerHTML = komi_info;
 			break;
 		
-		case 'tatar':
-			infoBlock.innerHTML = tatar_info;
+		case 'baskir':
+			infoBlock.innerHTML = baskir_info;
 			break;
 		
 		case 'turkic':

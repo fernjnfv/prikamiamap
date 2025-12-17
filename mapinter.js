@@ -424,8 +424,8 @@ function get_region(region){
 		case 'komi':
 			return [comiPath];
 		
-		case 'tatar':
-			return [tatarPath];
+		case 'baskir':
+			return [baskirPath];
 		
 		case 'turkic':
 			return [turscPath1, turscPath2, turscPath3];
