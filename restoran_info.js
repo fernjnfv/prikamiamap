@@ -302,7 +302,7 @@ Perm_restaurant = {
 		address: "г. Пермь, ул. Газеты «Звезда», 75",
 		phone: "+7 (342)244-13-55",
 		hours: "11:00 - 23:00",
-		images: ["img1.jpg", "img2.jpg", "img3.jpg"] , // Картинки карусели
+		images: ["Perm_cuisine1.webp", "Perm_cuisine2.webp", "Perm_cuisine3.webp", "Perm_cuisine4.webp", "Perm_cuisine5.webp", "Perm_cuisine6.webp"] , // Картинки карусели
 		menuImage: "Perm_menu_closed.png", // Картинка закрытого меню
 		menuOpenImage: "Perm_menu_open.jpg",
 		menuBackX: 100, menuBackY: 100,
