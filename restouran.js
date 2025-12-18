@@ -146,8 +146,14 @@ function updateRestaurantInfo() {
 
     document.getElementById("menuButton").addEventListener("click", () => {
 		showMenu = true;
+		currentMenuImage.src = selectedRestaurant.menuOpenImage;
 		curr_map = 3        
-		draw();
+		currentMenuImage.onload = () => {
+			draw()
+		};
+		if (currentMenuImage.complete) {
+			draw()
+		}
     });
 	
     loadCarousel();

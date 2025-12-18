@@ -405,7 +405,7 @@ function DrawMenu(){
 	ctx.drawImage(currentMenuImage, x1, y1, displayWidth1 , displayHeight1 ); // Фоновая карта
 	selectedRestaurant.dishes.forEach(dish=> {
 		ctx.save();
-		ctx.strokeStyle = "rgba(256, 0, 0, 0.2)";
+		ctx.strokeStyle = "rgba(256, 0, 0, 0.4)";
 		ctx.lineWidth = 3;
 		ctx.beginPath()
 		ctx.translate(x1, y1);
